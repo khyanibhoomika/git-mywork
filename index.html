@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhoomika Khyani | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+color:white;
+background:linear-gradient(135deg,#0f172a,#1e1b4b,#111827,#172554);
+background-size:400% 400%;
+animation:bgmove 10s ease infinite;
+}
+
+.container{
+max-width:850px;
+animation:fadeIn 1.5s ease;
+}
+
+h1{
+font-size:72px;
+font-weight:700;
+margin-bottom:15px;
+line-height:1.1;
+}
+
+.name{
+color:#a855f7;
+}
+
+h2{
+font-size:34px;
+font-weight:300;
+margin-bottom:28px;
+color:#d1d5db;
+}
+
+p{
+font-size:23px;
+line-height:1.8;
+color:#e5e7eb;
+max-width:780px;
+margin:auto;
+margin-bottom:40px;
+}
+
+.links{
+display:flex;
+justify-content:center;
+gap:35px;
+flex-wrap:wrap;
+}
+
+.links a{
+text-decoration:none;
+color:white;
+font-size:24px;
+font-weight:500;
+transition:0.3s;
+}
+
+.links a:hover{
+color:#a855f7;
+transform:translateY(-4px);
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes bgmove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:46px;
+}
+
+h2{
+font-size:24px;
+}
+
+p{
+font-size:18px;
+}
+
+.links a{
+font-size:18px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Hi, I'm <span class="name">Bhoomika Khyani</span></h1>
+
+<h2>B.Tech Student • Future Full-Stack Developer</h2>
+
+<p>
+I am a passionate B.Tech student at CVIT with a strong interest in creating modern web applications, solving real-world problems through code, and continuously learning new technologies.
+I enjoy designing clean user experiences and building efficient full-stack solutions.
+</p>
+
+<div class="links">
+
+<a href="https://github.com/khyanibhoomika" target="_blank">GitHub</a>
+
+<a href="https://www.linkedin.com/in/bhoomika-khyani-9655613a9" target="_blank">LinkedIn</a>
+
+<a href="mailto:khyanibhoomika@gmail.com">Email</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
